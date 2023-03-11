@@ -21,7 +21,7 @@ $f = floatval($str);
 ```php
 var_dump(intval('a')); // выведет int(0)
 
-var_dump(new stdClass()); // выведет int(1) (правда с PHP Warning "Object of class stdClass could not be converted to int")
+var_dump(intval(new stdClass())); // выведет int(1) (правда с PHP Warning "Object of class stdClass could not be converted to int")
 ```
 В проектах чувствительных к ошибкам, где ошибки часто приводят к потере денег, вы можете захотеть использовать максимально строгую валидацию всех входных данных. В таком случае, вы можете попробовать использовать стандартные методы:
 

@@ -21,7 +21,7 @@ But the problem with these methods is that they continue to work even if the str
 ```php
 var_dump(intval('a')); // prints int(0)
 
-var_dump(new stdClass()); // prints int(1) (although with a PHP Warning "Object of class stdClass could not be converted to int")
+var_dump(intval(new stdClass())); // prints int(1) (although with a PHP Warning "Object of class stdClass could not be converted to int")
 ```
 In error-sensitive projects, where mistakes often result in a loss of money, you may want to use the strictest possible validation of all input data. In that case, you may want to try using standard methods:
 
