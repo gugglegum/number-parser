@@ -1,0 +1,8 @@
+<phpunit bootstrap="vendor/autoload.php">
+  <testsuites>
+    <testsuite name="parser">
+      <file>tests/ParseIntTest.php</file>
+      <file>tests/ParseFloatTest.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>

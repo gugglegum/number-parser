@@ -1,0 +1,21 @@
+{
+  "name": "gugglegum/number-parser",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paul Melekhov",
+      "email": "gugglegum@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "gugglegum\\NumberParser\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}

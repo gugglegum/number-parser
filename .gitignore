@@ -1,0 +1,10 @@
+# IntelliJ project files
+/.idea
+
+# Composer files
+/vendor
+/composer.lock
+
+# PHPUnit
+/.phpunit.result.cache
+/phpunit.cmd
